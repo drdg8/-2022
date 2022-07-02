@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.czx.asrdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml
+10    <!-- 集成时请添加下列权限 -->
+11    <!-- 测试完成后，您自己的appId appKey secretKey 请在 SynthActivity 和 MiniActivity 中修改 -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:8:5-67
+12-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:9:5-79
+13-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:10:5-80
+14-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:11:5-81
+15-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:12:5-76
+16-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:12:22-73
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+17-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:13:5-76
+17-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:13:22-73
+18    <uses-permission android:name="android.permission.READ_CALENDAR" />
+18-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:14:5-72
+18-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:14:22-69
+19    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+19-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:15:5-73
+19-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:15:22-70
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 蓝牙录音使用，不需要可以去除 -->
+20-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-71
+20-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-68
+21    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+21-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-75
+21-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-72
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-68
+22-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-65
+23    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+23-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-74
+23-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-71
+24
+25    <application
+25-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:16:5-58:19
+26        android:allowBackup="true"
+26-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:17:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] C:\Users\10403\.gradle\caches\transforms-2\files-2.1\062235506723b4139567f7f9df5c99ab\core-1.5.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@drawable/ic_launcher"
+29-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:18:9-45
+30        android:label="@string/app_name"
+30-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:19:9-41
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:20:9-40
+33        <activity
+33-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:21:9-25:59
+34            android:name="com.baidu.tts.sample.MyRecogActivity"
+34-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:22:13-44
+35            android:exported="false"
+35-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:23:13-37
+36            android:label="@string/title_activity_my_recog"
+36-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:24:13-60
+37            android:theme="@style/AppTheme.NoActionBar" />
+37-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:25:13-56
+38        <activity
+38-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:26:9-30:59
+39            android:name="com.baidu.tts.sample.MyWakeUpActivity"
+39-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:27:13-45
+40            android:exported="false"
+40-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:28:13-37
+41            android:label="@string/title_activity_my_wake_up"
+41-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:29:13-62
+42            android:theme="@style/AppTheme.NoActionBar" /> <!-- 支持api level 28 以上编译 -->
+42-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:30:13-56
+43        <uses-library
+43-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:31:9-33:40
+44            android:name="org.apache.http.legacy"
+44-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:32:13-50
+45            android:required="false" />
+45-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:33:13-37
+46
+47        <activity android:name="com.baidu.tts.sample.MainActivity" >
+47-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:35:9-48:20
+47-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:35:19-47
+48
+49            <!-- 这里改成MiniActivity 或者 SynthActivity 可以直接启动识别 -->
+50            <intent-filter>
+50-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:38:13-47:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:39:17-69
+51-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:39:25-66
+52                <action android:name="android.intent.action.INSERT" />
+52-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:40:17-71
+52-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:40:25-68
+53
+54                <category android:name="android.intent.category.APP_CALENDAR" />
+54-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:42:17-81
+54-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:42:27-78
+55
+56                <data android:mimeType="vnd.android.cursor.item/event" />
+56-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:44:17-74
+56-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:44:23-71
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:46:17-77
+58-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:46:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:49:9-51:51
+62            android:name="com.baidu.tts.sample.SynthActivity"
+62-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:50:13-42
+63            android:label="@string/sync_button" />
+63-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:51:13-48
+64        <activity
+64-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:52:9-54:37
+65            android:name="com.baidu.tts.sample.MiniActivity"
+65-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:53:13-41
+66            android:label="精简版合成" />
+66-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:54:13-34
+67        <activity
+67-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:55:9-57:40
+68            android:name="com.baidu.aip.asrwakeup3.core.mini.ActivityMiniWakeUp"
+68-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:56:13-81
+69            android:label="保存合成后的音频" />
+69-->D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\app\src\main\AndroidManifest.xml:57:13-37
+70
+71        <meta-data
+71-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-23:40
+72            android:name="com.baidu.speech.APP_ID"
+72-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-51
+73            android:value="26579604" />
+73-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-37
+74        <meta-data
+74-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-26:56
+75            android:name="com.baidu.speech.API_KEY"
+75-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-52
+76            android:value="35469dTHXi4zBU5Ao31I3fOC" />
+76-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-53
+77        <meta-data
+77-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-29:64
+78            android:name="com.baidu.speech.SECRET_KEY"
+78-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-55
+79            android:value="E9yGaz6VqXGSFmfdM0c849jnGqLoKZC6" />
+79-->[:core] D:\Android project\ASR_INTO_TTS2\ASR_INTO_TTS\core\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-61
+80    </application>
+81
+82</manifest>

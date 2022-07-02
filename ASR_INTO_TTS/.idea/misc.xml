@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ASR_INTO_TTS/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android project/ASR_INTO_TTS2/ASR_INTO_TTS/app/src/main/res/layout/activity_main.xml" value="0.23958333333333334" />
+        <entry key="..\:/Android project/ASR_INTO_TTS2/ASR_INTO_TTS/app/src/main/res/layout/activity_my_wake_up.xml" value="0.23958333333333334" />
+        <entry key="..\:/Android project/ASR_INTO_TTS2/ASR_INTO_TTS/app/src/main/res/layout/activity_synth.xml" value="0.23958333333333334" />
+        <entry key="..\:/Android project/ASR_INTO_TTS2/ASR_INTO_TTS/app/src/main/res/layout/content_my_wake_up.xml" value="0.23958333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

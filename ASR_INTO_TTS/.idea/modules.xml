@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ASR_INTO_TTS.iml" filepath="$PROJECT_DIR$/ASR_INTO_TTS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ASR_INTO_TTS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ASR_INTO_TTS.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ASR_INTO_TTS.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ASR_INTO_TTS.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ASR_INTO_TTS.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ASR_INTO_TTS.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ASR_INTO_TTS.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ASR_INTO_TTS.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/ASR_INTO_TTS.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/ASR_INTO_TTS.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/ASR_INTO_TTS.core.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/ASR_INTO_TTS.core.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/ASR_INTO_TTS.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/ASR_INTO_TTS.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/ASR_INTO_TTS.core.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/ASR_INTO_TTS.core.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+#Sat Jul 02 19:57:08 CST 2022
+base.2=D\:\\Android project\\ASR_INTO_TTS2\\ASR_INTO_TTS\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
+path.2=classes_0.dex
+base.1=D\:\\Android project\\ASR_INTO_TTS2\\ASR_INTO_TTS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.1=classes.dex
+base.0=D\:\\Android project\\ASR_INTO_TTS2\\ASR_INTO_TTS\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
